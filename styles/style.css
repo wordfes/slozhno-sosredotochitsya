@@ -7,6 +7,8 @@
   background-size: cover;
   background-attachment: fixed;
   block-size: 100%;
+  font-size: 18px;
+  line-height: 130%;
 }
 
 .header {
@@ -27,8 +29,8 @@
   align-items: center;
   gap: 10px;
   color: var(--secondary-color, #ff0070);
-  font-size: 18px;
   line-height: 25px;
+  text-transform: uppercase;
   min-inline-size: 60px;
 }
 
@@ -78,7 +80,6 @@
 
 .header__theme-menu-item {
   color: var(--border-color, #ff0070);
-  font-size: 18px;
   line-height: 18px;
 }
 
@@ -87,11 +88,11 @@
   justify-content: center;
   align-items: center;
   border: 1px solid transparent;
-  padding-block-end: 6px;
+  padding-block-end: 5px;
   color: var(--border-color, #ff0070);
   text-transform: lowercase;
   background-color: transparent;
-  block-size: 26px;
+  min-block-size: 26px;
   min-inline-size: 70px;
 }
 
@@ -129,8 +130,6 @@
 
 .header__text {
   font-weight: 700;
-  font-size: 18px;
-  line-height: 130%;
   max-inline-size: 491px;
   white-space: pre-line;
 }
@@ -156,9 +155,6 @@
 .section__title {
   color: var(--main-title-color, #ff0070);
   font-weight: 700;
-  font-size: 18px;
-  font-style: normal;
-  line-height: 1.4625rem;
   max-inline-size: 315px;
 }
 
@@ -182,23 +178,15 @@
   color: var(--content-text-color, #000028);
   font-family: var(--main-font, monospace);
   font-weight: 700;
-  font-size: 18px;
-  font-style: normal;
-  line-height: 23.4px;
 }
 
 .article__title-decor {
   font-weight: normal;
-  font-size: 18px;
 }
 
 .article__text {
   color: var(--text-color, #f1b2ce);
   font-family: var(--main-font, monospace);
-  font-weight: 400;
-  font-size: 18px;
-  font-style: normal;
-  line-height: 23.4px;
 }
 
 .what__wrapper {

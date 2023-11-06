@@ -11,3 +11,7 @@
   --hyperlink-shadow-color: #ff0070;
   --accent-color-title: #ff0070;
 }
+
+.theme_dark .header__rec {
+  display: flex;
+}
